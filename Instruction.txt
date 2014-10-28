@@ -1,0 +1,14 @@
+#1.This tool is going to search Master Ticket IDs from Scozilla(https://scotzilla-pivotal.eng.vmware.com/xmlrpc.cgi)
+
+#2."searchscot.py" is its main programme,"extract_go.py","extract_java.py","extract_linux.py","extract_ruby.py" are its components.
+
+#3."input_file_go_sample","input_file_java_sample","input_file_linux_sample","inputfile_ruby_sample" are the samples of input file.
+
+#4.The approach of executing command is like that,for example:
+    
+    ruby:  python searchscot.py -f inputfile_ruby_sample -o outputfile -r
+    jave:  python searchscot.py -f input_file_java_sample -o outputfile -j
+    go:    python searchscot.py -f input_file_go_sample -o outputfile -g
+    linux: python searchscot.py -f input_file_linux_sample -o outputfile -l     
+
+#5. Using command "python searchscot.py -h" to get more informations. 
