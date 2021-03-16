@@ -1,4 +1,4 @@
-MT_SEACH
+MT_SEARCHER
 ========
 
 search MTs
